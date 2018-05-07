@@ -1,2 +1,2 @@
 # python-test-ci
-a demo of continuous integration and deployment using heroku
+a demo of mock, unit testing and continuous integration
