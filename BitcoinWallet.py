@@ -14,7 +14,7 @@ class BitcoinPricer:
       class_name = self.__class__.__name__
       print(class_name, "current instance destroyed")
     # Public Method
-    def CalculateCurrentValueInUSDollar(self,bitcoin:float)->float:
+    def CalculateCurrentValueInUSDollar(self,bitcoin:float)->afloat:
         BTCVService=BitcoinValueService()
         return (float(BTCVService.getCurrentBitcoinValue())*bitcoin)
 # running public method
