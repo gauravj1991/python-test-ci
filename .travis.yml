@@ -14,4 +14,11 @@ install:
 script:
   - python testWithoutMockBTWS.py # or py.test for Python versions 3.5 and below
   - python testWithoutMockBTWS.py # or py.test for Python versions 3.5 and below
+# command for notifications 
+notifications:
+  email:
+    recipients:
+      - gaurav.j1991@gmail.com
+    on_success: never # default: change
+    on_failure: always # default: always
 
