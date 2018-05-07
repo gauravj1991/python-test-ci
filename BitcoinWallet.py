@@ -16,7 +16,7 @@ class BitcoinPricer:
     # Public Method
     def CalculateCurrentValueInUSDollar(self,bitcoin:float)->float:
         BTCVService=BitcoinValueService()
-        return (float(BTCVService.getCurrentBitcoinValue())*bitcoin/0)
+        return (float(BTCVService.getCurrentBitcoinValue())*bitcoin)
 # running public method
 BW=BitcoinPricer()
 print(BW.CalculateCurrentValueInUSDollar(30))
